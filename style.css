@@ -391,6 +391,9 @@ footer {
 }
 
 @media (min-width: 1280px){
+    .head-info {
+        text-align: left;
+    }
     .container {
         max-width: 80rem;
         margin: 0 auto;
@@ -400,24 +403,30 @@ footer {
         left: 50%;
         transform: translateX(-50%);
     }
-
-    .projects,.about {
+    hr {
+        margin-bottom: 30px;
+        margin-top: 50px;
+    }
+    .projects,.about,.skills {
         padding: 0;
     }
-  
-    .head-info,.transparent {
-        text-align: center;
-    }
     .about-boxes {
-        display: flex;
-        justify-content: center;
-    }
-    .skill {
-        max-width: 30rem;
-    }
-    .skill-bars {
-        display: flex;
+        display: grid;
         grid-template-columns: repeat(2,1fr);
         justify-content: center;
+    }
+    .transparent {
+        text-align: center;
+    }
+    .skill-bars {
+        display: grid;
+        grid-template-columns: repeat(2,1fr);
+        justify-content: center;
+    }
+}
+@media (max-width:924px) {
+    .skills-bars {
+        display: flex;
+        flex-direction: column;
     }
 }
