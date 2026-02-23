@@ -101,4 +101,9 @@
         background-color:hsl(228 18% 10%);
         transition: 0.4s;
     }
+    .name {
+    color:orange;
+    text-align: center;
+    font-size: 40px;
+}
 }
