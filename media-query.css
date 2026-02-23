@@ -70,6 +70,10 @@
     }
 }
 @media (max-width: 830px) {
+    .container {
+        margin-left: auto;
+        margin-right: auto;
+    }
     .about-boxes {
         display:flex;
         flex-direction: column;
@@ -111,4 +115,12 @@
         flex-direction: column;
         justify-content: center;
     }
+    .skill-bar {
+    width:300px;
+    background:linear-gradient( to right,orange 95%, hsl(220 15% 15%) 5%);
+    height:8px;
+    border-radius: 20px;
+    margin-bottom: 20px;
+    
+}
 }
