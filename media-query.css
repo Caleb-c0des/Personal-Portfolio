@@ -70,6 +70,11 @@
     }
 }
 @media (max-width: 830px) {
+    header {
+        nav a {
+            display: none;
+        }
+    }
     .container {
         margin-left: auto;
         margin-right: auto;
