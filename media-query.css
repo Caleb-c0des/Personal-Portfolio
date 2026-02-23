@@ -102,8 +102,13 @@
         transition: 0.4s;
     }
     .name {
-    color:orange;
-    text-align: center;
-    font-size: 40px;
-}
+        color:orange;
+        text-align: center;
+        font-size: 40px;
+    }
+    .skill-bars {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
 }
