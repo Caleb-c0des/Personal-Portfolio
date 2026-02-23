@@ -80,7 +80,7 @@
         margin-left: auto;
         margin-right: auto;
     }
-    .name,.about p {
+    .name{
         text-align: center;
     }
     .about-boxes {
@@ -176,6 +176,9 @@
     text-align: left;
     }
     .about-box  p {
+        text-align: left;
+    }
+    .about p {
         text-align: left;
     }
 }
