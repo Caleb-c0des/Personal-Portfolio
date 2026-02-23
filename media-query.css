@@ -74,10 +74,15 @@
         margin-left: auto;
         margin-right: auto;
     }
+    .name,.about p {
+        text-align: center;
+    }
     .about-boxes {
         display:flex;
         flex-direction: column;
         gap:30px;
+        justify-content: center;
+        align-items: center;
     }
     .about-box {
         border-radius: 12px;
@@ -93,6 +98,8 @@
          display:flex;
          flex-direction: column;
          gap:20px;
+         justify-content: center;
+         align-items: center;
     }
     .project-container {
         border-radius: 12px;
@@ -115,12 +122,41 @@
         flex-direction: column;
         justify-content: center;
     }
-    .skill-bar {
-    width:300px;
-    background:linear-gradient( to right,orange 95%, hsl(220 15% 15%) 5%);
-    height:8px;
-    border-radius: 20px;
-    margin-bottom: 20px;
-    
-}
+    .general-skill {
+        width:90%;
+    }
+
+    .skill-info-50 {
+        display: flex;
+        gap:50px;
+    }
+    .skill-info-95 {
+        display:flex;
+        gap:50px;
+    }
+    .skill-info-75 {
+        display:flex;
+        gap:50px;
+    }
+    .skill-info-45 {
+        display:flex;
+        gap:50px;
+    }
+    .skill-info-55 {
+        display: flex;
+        gap: 50px;
+    }
+    .skill-info-89 {
+        display: flex;
+        gap:50px;
+    }
+    .skill-info-90 {
+    display: flex;
+    gap: 50px;
+    }
+    .skill-info {
+    display:flex;
+    gap:50px;
+
+    }
 }
