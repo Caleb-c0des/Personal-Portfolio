@@ -69,3 +69,36 @@
         gap:30px;
     }
 }
+@media (min-width: 831px) {
+    .about-boxes {
+        display:flex;
+        flex-direction: column;
+        gap:30px;
+    }
+    .about-box {
+        border-radius: 12px;
+        border: 1px solid hsl(220 15% 18%);
+        color:#818898;
+        font-family: "Sansita", sans-serif;
+        font-weight: 400;
+        font-style: normal;
+        background-color:hsl(228 18% 10%);
+        transition: 0.4s;
+    }
+    .project-containers {
+         display:flex;
+         flex-direction: column;
+         gap:20px;
+    }
+    .project-container {
+        border-radius: 12px;
+        border: 1px solid hsl(220 15% 18%);
+        color:#818898;
+        font-family: "Sansita", sans-serif;
+        font-weight: 400;
+        font-style: normal;
+        padding: 1.rem;
+        background-color:hsl(228 18% 10%);
+        transition: 0.4s;
+    }
+}
