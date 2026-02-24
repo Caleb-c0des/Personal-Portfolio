@@ -247,6 +247,10 @@ span {
     gap:350px;
 
 }
+.skill-info-69 {
+        display:flex;
+        gap:205px;
+    }
 .skill-info p {
     font-size: 14px;
     font-family: "Sansita", sans-serif;
