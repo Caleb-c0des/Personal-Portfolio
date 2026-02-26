@@ -69,13 +69,13 @@
         display:flex;
         gap:30px;
     }
-    header {
+    header > div {
         padding-left: 30px;
         padding-right: 30px;
     }
 }
 @media (max-width: 830px) {
-    header {
+    header > div {
         padding-left: 30px;
         padding-right: 30px;
     }
