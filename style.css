@@ -34,6 +34,7 @@ header {
     height: 80px;
     display: flex;
     align-items: center;
+    color:#818898;
 }
 
 header > div {
@@ -41,7 +42,52 @@ header > div {
     justify-content: space-between;
     width: 100%;
 }
+.theme-button {
+    font-size: 2rem;
+    border: none;
+    background: none;
+    cursor: pointer;
+}
+ .container-header{
+    align-items: center;
+    display: flex;
+    }
+.moon{
+    display:none;
+    color:#818898;
+}
+.moon {
+    color:#818898;
+}
+/* change background when theme switches */
+[data-theme="light"] header {background-color: white;border: 1px solid #e5e7eb;}
+[data-theme="light"] .hero-overlay {background-color:white ;}
+[data-theme="light"] .sun  { display: none; }
+[data-theme="light"] .moon { display: inline; }
+[data-theme="light"] body { background: white;color:black; }
+[data-theme="light"] h1 {color:black;}
+[data-theme="light"] .name span {color:black;}
+[data-theme="light"] .name {color:orange}
+[data-theme="light"] .about-box {background-color: #eeece8;}
+[data-theme="light"] .project-container {background-color: #eeece8;}
+[data-theme="light"] hr {border:1px solid #e5e7eb;}
+[data-theme="light"] .project-container span {background-color: #dddad5;}
+[data-theme="light"] .about h2 {color:black;}
+[data-theme="light"] .project-container h2 {color:black;}
+[data-theme="light"] .project-container {border: 1px solid #d6d3cd;}
+[data-theme="light"] .about-box {border: 1px solid #d6d3cd;}
+[data-theme="light"] .skill-bar {background:linear-gradient( to right,orange 95%,#d6d3cd 5%);}
+[data-theme="light"] .skill-bar-69 {background:linear-gradient( to right,orange 69%,#d6d3cd 31%);}
+[data-theme="light"] .skill-bar-90 {background:linear-gradient( to right,orange 90%,#d6d3cd 10%);}
+[data-theme="light"] .skill-bar-89 {background:linear-gradient( to right,orange 89%,#d6d3cd 11%);}
+[data-theme="light"] .skill-bar-50 {background:linear-gradient( to right,orange 50%,#d6d3cd 50%);}
+[data-theme="light"] .skill-bar-75 {background:linear-gradient( to right,orange 75%,#d6d3cd 5%);}
+[data-theme="light"] .skill-bar-45 {background:linear-gradient( to right,orange 55%,#d6d3cd 45%);}
+/* change text color */
+[data-theme="light"] p { color: black; }
 
+/* change anything! */
+[data-theme="light"] span { color: orange; }
 .nav a {
     text-decoration: none;
     color:#818898;
@@ -56,6 +102,7 @@ header > div {
 nav {
     display:flex;
     gap:40px;
+    align-items: center;
 }
 nav a:hover {
     color:orange;
@@ -392,5 +439,10 @@ footer {
     font-family: "Sansita", sans-serif;
     font-weight: 400;
     font-style: normal;
+    padding-bottom: 1rem;
+}
+.theme-btn {
+    background:var(--background) ;
+    border: none;
 }
 
