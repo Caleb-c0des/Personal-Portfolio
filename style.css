@@ -61,7 +61,7 @@ header > div {
 }
 /* change background when theme switches */
 [data-theme="light"] header {background-color: white;border: 1px solid #e5e7eb;}
-[data-theme="light"] .hero-overlay {background-color:white ;}
+[data-theme="light"] .hero-overlay {background-color:#ffffffde ;}
 [data-theme="light"] .sun  { display: none; }
 [data-theme="light"] .moon { display: inline; }
 [data-theme="light"] body { background: white;color:black; }
@@ -91,7 +91,7 @@ header > div {
 .nav a {
     text-decoration: none;
     color:#818898;
-    transition: o.3s;
+    transition: 0.3s;
 }
 .job {
     text-align: center;
