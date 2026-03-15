@@ -5,6 +5,7 @@ html {
     padding:0;
     margin: 0;
     box-sizing: border-box;
+    cursor: none;
 }
 body {
     background-color: var(--background);
@@ -36,6 +37,7 @@ header {
     display: flex;
     align-items: center;
     color:#818898;
+    cursor: none;
 }
 
 header > div {
@@ -127,6 +129,7 @@ nav a:hover {
 .hero-image {
     height: 100vh;
     width: 100vw;
+    cursor: none;
 }
 .hero-content {
     position: absolute;
@@ -152,6 +155,7 @@ nav a:hover {
     color:orange;
     text-align: center;
     font-size: 100px;
+    cursor: none;
 }
 .hero-content button {
     display:flex;
@@ -162,6 +166,7 @@ nav a:hover {
     margin-left: auto;
     margin-right: auto;
     border: none;
+    cursor: none;
     transition: 0.4s;
 }
 .hero-content button:hover {
