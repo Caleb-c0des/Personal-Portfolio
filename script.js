@@ -36,7 +36,7 @@ document.addEventListener("mousemove",(e)=>
 });
 document.addEventListener("mouseleave", ()=> 
 {
-    circle.style.opacity="0";
+    circle.style.opacity="1";
 })
 document.addEventListener("mouseenter", ()=> 
 {
