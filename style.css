@@ -159,7 +159,7 @@ nav a:hover {
 }
 .hero-content button {
     display:flex;
-    padding:14px 32px;
+    padding:15px 33px;
     border-radius: 10px;
     background-color: orange;
     color:black;
@@ -168,6 +168,10 @@ nav a:hover {
     border: none;
     cursor: none;
     transition: 0.4s;
+    align-items: center;
+    gap:5px;
+    font-size: 17px;
+    font-family:'Times New Roman', Times, serif;
 }
 .hero-content button:hover {
     background-color: rgba(255, 166, 0, 0.781);
